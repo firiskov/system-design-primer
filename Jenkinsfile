@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    git url: 'https://github.com/firiskov/system-design-primer.git', branch: 'master'
+                    git url: 'https://github.com/firiskov/system-design-primer.git'
             }
         }
 
