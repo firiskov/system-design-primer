@@ -1,4 +1,3 @@
-  GNU nano 8.4                    Jenkinsfile                             
 pipeline {
     agent any
 
